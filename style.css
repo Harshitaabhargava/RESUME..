@@ -1,0 +1,90 @@
+/* General Styling */
+body {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    background: #f8f6f4;
+    color: #333;
+    transition: background 0.5s, color 0.5s;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: #A7C7E7;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.profile-pic img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Buttons */
+button {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #E4A8A1;
+    color: white;
+    font-size: 14px;
+}
+button:hover {
+    background: #d48b89;
+}
+
+/* Sections */
+.about, .education, .skills, .languages, .leadership, .achievements, .projects, .contact {
+    background: #FFF5E1;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Project Section */
+.project {
+    background: #B5EAD7;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background: #2c3e50;
+    color: white;
+}
+.dark-mode .about, 
+.dark-mode .education, 
+.dark-mode .skills, 
+.dark-mode .languages, 
+.dark-mode .leadership, 
+.dark-mode .achievements, 
+.dark-mode .projects, 
+.dark-mode .contact {
+    background: #3b3b3b;
+    color: white;
+}
+.dark-mode button {
+    background: #576574;
+}
